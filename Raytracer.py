@@ -57,12 +57,12 @@ rtx.scene.append(Sphere(V3(0.4,1.5,-10), 0.15, smile))
 rtx.scene.append(Sphere(V3(-0.4,1.5,-10), 0.15, smile))
 rtx.scene.append(Sphere(V3(0.7,1.6,-10), 0.15, smile))
 rtx.scene.append(Sphere(V3(-0.7,1.6,-10), 0.15, smile))
-rtx.scene.append(Plane(position= (0,-20,0), normal= (0,1,0), material= yellowSubmarine))
-rtx.scene.append(AABB(position=(-2,-13,-10), size=(2,2,2), material= mirror))
-rtx.scene.append(AABB(position=(2,-13,-10), size=(2,2,2), material= mirror))
+rtx.scene.append(Plane(position= (0,-13,0), normal= (0,1,0), material= yellowSubmarine))
+rtx.scene.append(AABB(position=(0,1.75,-5), size=(1,1,1), material= wood))
+rtx.scene.append(AABB(position=(0,5,-5), size=(1,1,1), material= wood))
 
 
-rtx.scene.append(Triangle(V3(-1,2,-5), V3(0,3,-5), V3(1,2,-5), material= mirror))
+rtx.scene.append(Triangle(V3(-1,2,-10), V3(0,3,-10), V3(1,2,-10), material= mirror))
 
 
 
