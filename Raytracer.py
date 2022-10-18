@@ -5,8 +5,8 @@ from figures import *
 from lights import *
 
 
-width = 256
-height = 256
+width = 1024
+height = 1024
 
 # Materiales
 
@@ -58,8 +58,9 @@ rtx.scene.append(Sphere(V3(-0.4,1.5,-10), 0.15, smile))
 rtx.scene.append(Sphere(V3(0.7,1.6,-10), 0.15, smile))
 rtx.scene.append(Sphere(V3(-0.7,1.6,-10), 0.15, smile))
 rtx.scene.append(Plane(position= (0,-13,0), normal= (0,1,0), material= yellowSubmarine))
-rtx.scene.append(AABB(position=(0,1.75,-5), size=(1,1,1), material= wood))
-rtx.scene.append(AABB(position=(0,5,-5), size=(1,1,1), material= wood))
+rtx.scene.append(AABB(position=(0,2.15,-5), size=(1,1,1), material= wood))
+rtx.scene.append(AABB(position=(0.58,1.75,-5), size=(0.1,0.1,0.1), material= wood))
+rtx.scene.append(AABB(position=(-0.58,1.75,-5), size=(0.1,0.1,0.1), material= wood))
 
 
 rtx.scene.append(Triangle(V3(-1,2,-10), V3(0,3,-10), V3(1,2,-10), material= mirror))
